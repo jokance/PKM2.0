@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+#left .ask a{
+	color:#ccc;
+}
+#foot{
+
+}
+#foot a{
+	color:#0078B6;
+}
+#foot a:hover{
+	text-decoration:underline;
+}
+#foot .bar{
+	width:700px;
+	height:15px;
+}
+#foot .bar .back{
+	margin:0 10px 0 0;
+	float:right;
+	height:15px;
+	line-height:15px;
+}
+#foot .bar .back a{
+	text-align:center;
+	color:#999;
+}
+#foot .question{
+	width:700px;
+	padding:10px 0 10px 0;
+	border-bottom:1px dashed #ccc;
+}
+#foot .question div{
+	padding:6px 0;
+}
+#foot .question .title{
+	font-size:18px;
+	color:#F37F00;
+	font-style:italic;
+}
+#foot .question .title a{
+	padding:0 0 0 5px;
+	font-size:14px;
+	color:#0078B6;
+	font-style:normal;
+}
+
+#foot .question .desc{
+	font-size:14px;
+	line-height:28px;
+	color:#999;
+}
+#foot .question .tag{
+	color:#0078B6;
+}
+#foot .question .tag span{
+	color:#999;
+}
+#foot .question .tag a{
+	color:#0078B6;
+	padding:0 4px;
+}
+
+#foot .question span.comment{
+	display:inline-block;
+	float:right;
+	cursor:pointer;
+}
+#foot .question span.comment a{
+	background:url(../images/combo_arrow.png) no-repeat right;
+	padding:0 15px 0 0;
+}
+.postans{
+	width:0;
+	height:0;
+	padding:10px 0 10px 0;
+	overflow:hidden;
+}
+.postans textarea{
+	width:685px;
+	height:80px;
+	color:#666;
+	padding:3px;
+	font-size:13px;
+}
+.postans input[type=button]{
+	width:45px;
+	height:25px;
+	border:1px solid #0078B6;
+	color:#fff;
+	cursor:pointer;
+	float:right;
+	margin:5px 18px 0 0;
+	background:#0078B6;
+}
+#foot .answer{
+	width:680px;
+	margin:10px 0 0 20px;
+}
+#foot .answer .detail{
+	margin:0 0 30px 0;
+}
+#foot .answer .detail h2{
+	width:680px;
+	display:inline-block;
+	font-weight:normal;
+	font-size:12px;
+	background:#F6F6F6;
+	padding:4px;
+}
+#foot .answer .detail h2 span{
+	display:inline-block;
+}
+#foot .answer .detail h2 span.nickname{
+	float:left;
+	color:#0078B6;
+}
+#foot .answer .detail h2 span.date{
+	font-family:Tahoma;
+	float:right;
+	color:#999;
+}
+#foot .answer .detail .text{
+	line-height:18px;
+	letter-spacing:1px;
+	margin:8px 0 0 10px;
+}
+#foot .answer .detail .comment{
+	float:right;
+	color:#0078B6;
+}
+#foot .answer .detail .comment a{
+	padding:0 2px;
+}
+
+#foot .ans_more{
+	width:700px;
+	height:35px;
+	margin:40px 0;
+	line-height:35px;
+	text-align:center;
+	border:1px solid #E3E3E3;
+	cursor:pointer;
+}
+#foot .ans_more:hover{
+	background: #E3E3E3;
+}
+

@@ -1,0 +1,563 @@
+[ 2014-06-16T00:07:58+08:00 ] 127.0.0.1 /PKM2.0/Ask/index&page=2
+ERR: 非法操作:index&page=2
+
+[ 2014-06-16T00:09:11+08:00 ] 127.0.0.1 /PKM2.0/Ask/index&page=2
+ERR: 非法操作:index&page=2
+
+[ 2014-06-16T00:21:33+08:00 ] 127.0.0.1 /PKM2.0/index.php/Home/Ask/page/2
+ERR: 非法操作:page
+
+[ 2014-06-16T00:24:44+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+
+[ 2014-06-16T00:24:47+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+
+[ 2014-06-16T00:27:55+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T00:28:06+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (7,'123455','2014-06-16 00:28:06',15,'admin') [ RunTime:0.069004s ]
+
+[ 2014-06-16T00:42:03+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T00:42:08+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+
+[ 2014-06-16T00:42:41+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (8,'sadaasd asd asd','2014-06-16 00:42:41',15,'admin') [ RunTime:0.001000s ]
+
+[ 2014-06-16T00:42:52+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.015000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T00:43:04+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.015001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.002001s ]
+
+[ 2014-06-16T00:45:24+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.015001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (8,'beyond','2014-06-16 00:45:23',15,'admin') [ RunTime:0.032002s ]
+
+[ 2014-06-16T00:45:41+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (8,'number','2014-06-16 00:45:41',15,'admin') [ RunTime:0.001000s ]
+
+[ 2014-06-16T00:45:46+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T00:45:52+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T00:45:53+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.002000s ]
+
+[ 2014-06-16T01:04:11+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014000s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (8,'bsada','2014-06-16 01:04:11',15,'admin') [ RunTime:0.001000s ]
+
+[ 2014-06-16T01:04:19+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.015001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T01:04:21+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.015001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T01:04:23+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.002001s ]
+
+[ 2014-06-16T01:04:46+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-06-16T01:04:49+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-06-16T01:04:51+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.042002s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.002000s ]
+
+[ 2014-06-16T10:07:29+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.011000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T10:07:33+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.011001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T10:07:35+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.010000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.002000s ]
+
+[ 2014-06-16T10:08:16+08:00 ] 127.0.0.1 /PKM2.0/Public/post0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-16T10:34:15+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.012001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T10:54:50+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.011001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T14:07:26+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.046003s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'root' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-06-16T14:08:20+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.041002s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (8,'&lt;script type=\\&quot;text/javascript\\&quot;&gt;alert(\\&quot;123\\&quot;)&lt;/script&gt;','2014-06-16 14:08:20',16,'root') [ RunTime:0.001000s ]
+
+[ 2014-06-16T14:08:27+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T14:08:29+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T14:12:15+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.014000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T14:12:17+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T14:13:59+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T14:14:00+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-06-16T14:17:28+08:00 ] 127.0.0.1 /PKM2.0/Public/post1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_qus [ RunTime:0.014000s ]
+SQL: INSERT INTO `pkm_qus` (`title`,`content`,`tag`,`date`,`uid`) VALUES ('问题测试','问题测试问题测试问题测试问题测试','&lt;strong&gt;测试&lt;/strong&gt;，html','2014-06-16 14:17:28',16) [ RunTime:0.002000s ]
+
+[ 2014-06-16T14:18:22+08:00 ] 127.0.0.1 /PKM2.0/Public/post1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_qus [ RunTime:0.014001s ]
+SQL: INSERT INTO `pkm_qus` (`title`,`content`,`tag`,`date`,`uid`) VALUES ('问题测试2','问题测试2问题测试2问题测试2问题测试2','测\\\'试，ht\\&quot;ml','2014-06-16 14:18:22',16) [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:36:02+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'admin' ) LIMIT 1   [ RunTime:0.002001s ]
+
+[ 2014-06-16T16:36:25+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.018001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'admin1' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T16:38:25+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'buou' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:38:59+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.017001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'buou' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:39:00+08:00 ] 127.0.0.1 /PKM2.0/Public/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.018001s ]
+SQL: INSERT INTO `pkm_user` (`user`,`pass`,`ques`,`ans`,`email`,`year`,`month`,`day`,`ps`,`date`) VALUES ('buou','05fe7461c607c33229772d402505601016a7d0ea',1,'白菜','buou@163.com','1966','6','17','','2014-06-16 16:39:00') [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:39:16+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'buou' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:39:54+08:00 ] 127.0.0.1 /PKM2.0/Public/post1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_qus [ RunTime:0.019001s ]
+SQL: INSERT INTO `pkm_qus` (`title`,`content`,`tag`,`date`,`uid`) VALUES ('编程序有什么乐趣吗？','算是写过近5年程序…… 没有感受到乐趣…
+
+对于整天编写代码的人们，乐趣都在哪里? ','计算机，编程','2014-06-16 16:39:54',20) [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:40:44+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.017001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'yudalei' ) LIMIT 1   [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:41:01+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.019001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'yudalei' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-16T16:41:08+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.018001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'yudalei' ) LIMIT 1   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:41:08+08:00 ] 127.0.0.1 /PKM2.0/Public/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: INSERT INTO `pkm_user` (`user`,`pass`,`ques`,`ans`,`email`,`year`,`month`,`day`,`ps`,`date`) VALUES ('yudalei','05fe7461c607c33229772d402505601016a7d0ea',2,'yudalei','yudalei@sina.com.cn','1966','3','16','','2014-06-16 16:41:08') [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:41:21+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.018001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'yudalei' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:41:36+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.015001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (11,'编程语言说来说去都是一种语言
+你可以用它写狗屁不通的文章
+也可以用它写欢快的故事。
+
+编程不是编写代码，
+而是用代码编写故事。
+
+你要写些没趣的东西，当然觉得没趣。','2014-06-16 16:41:36',21,'yudalei') [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:42:15+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'qqly' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T16:42:37+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.017001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'qqly' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:42:38+08:00 ] 127.0.0.1 /PKM2.0/Public/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.018002s ]
+SQL: INSERT INTO `pkm_user` (`user`,`pass`,`ques`,`ans`,`email`,`year`,`month`,`day`,`ps`,`date`) VALUES ('qqly','05fe7461c607c33229772d402505601016a7d0ea',2,'qqly','qqly@163.com','1967','4','18','','2014-06-16 16:42:38') [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:42:46+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'qqly' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:42:57+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.019001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (11,'因人而异吧，有的人能从中体会到创造世界的乐趣，有的人每敲击一下键盘就听到一声钢镚声，有的人只能体会到无聊和痛苦，有的人什么都体会不到。','2014-06-16 16:42:57',22,'qqly') [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:44:52+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'af52' ) LIMIT 1   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-16T16:45:12+08:00 ] 127.0.0.1 /PKM2.0/Check/is_user
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pkm_user` WHERE ( `user` = 'af52' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-16T16:45:12+08:00 ] 127.0.0.1 /PKM2.0/Public/add
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: INSERT INTO `pkm_user` (`user`,`pass`,`ques`,`ans`,`email`,`year`,`month`,`day`,`ps`,`date`) VALUES ('af52','05fe7461c607c33229772d402505601016a7d0ea',2,'asdas','af52@sohu.com','1968','4','18','','2014-06-16 16:45:12') [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:45:24+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.017001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'af52' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2014-06-16T16:45:45+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.021002s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (11,'编程序的乐趣就是：当一个人运行了你的程序，他就进入了你创造的世界；“要有菜单”、“要有按钮”、“要有一个超长的鸣谢列表” …… ，创造之日你如是说。','2014-06-16 16:45:45',23,'af52') [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:47:28+08:00 ] 127.0.0.1 /PKM2.0/Public/post0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_state [ RunTime:0.124007s ]
+SQL: INSERT INTO `pkm_state` (`text`,`date`,`uid`) VALUES ('杀毒软件的原理是什么？','2014-06-16 16:47:28',23) [ RunTime:0.002000s ]
+
+[ 2014-06-16T16:48:04+08:00 ] 127.0.0.1 /PKM2.0/Public/post1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_qus [ RunTime:0.015000s ]
+SQL: INSERT INTO `pkm_qus` (`title`,`content`,`tag`,`date`,`uid`) VALUES ('杀毒软件的原理是什么？','最近闲来无事 用C++做个小软件老是被360那蠢蛋杀，求问关于360杀毒的原理，如果这个软件不被杀需要做到那些东西？','软件，电脑','2014-06-16 16:48:04',23) [ RunTime:0.001000s ]
+
+[ 2014-06-16T23:25:51+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+
+[ 2014-06-16T23:25:59+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.031002s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.017001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+

@@ -1,0 +1,655 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+body{
+	background:url(../images/bg.png) repeat-x #424B57;
+	font-size:12px;
+}
+a{
+	color:#ccc;
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+#main{
+	width:1030px;
+	height:600px;
+	margin:20px auto 0 auto;
+}
+#left{
+	width:160px;
+	height:600px;
+	background:#444B65;
+
+	float:left;
+	box-shadow:1px 3px 5px;
+}
+#left h2{
+	width:48px;
+	height:39px;
+	background:url(../images/logo.png) no-repeat;
+	margin:10px 0 0 50px;
+	text-indent:-9999px;
+}
+#left ul{
+	font-size:13px;
+	margin:0 0 0 10px;
+}
+#left ul li{
+	height:24px;
+	line-height:24px;
+	padding:0 0 0 22px;
+	margin:20px 0 0 0;
+	background:url(../images/leftbar.png) no-repeat;
+}
+
+#left ul li.diary{
+	background-position:0% 1%;
+}
+#left ul li.friend{
+	background-position:0% 22%;
+}
+#left ul li.ask{
+	background-position:0% 42%;
+}
+#left ul li.link{
+	background-position:0% 62%;
+}
+#left ul li.group{
+	background-position:0% 82%;
+}
+#left ul li.inform{
+	background-position:0% 100%;
+}
+#left ul li a{
+	display:block;
+	width:100px;
+	height:24px;
+	color:#24272E;
+}
+#left ul li a:hover{
+	color:#ccc;
+}
+#top{
+	width:870px;
+	height:170px;
+	float:left;
+	background:url(../images/topbg.png) #fff;
+	box-shadow:1px 3px 5px;
+}
+#top .search{
+	float:left;
+	margin:8px 0 0 10px;
+}
+#top .search .text{
+	border:1px solid #fff;
+	border-radius:5px;
+	padding:2px;
+	background:url(../images/topbg.png) #fff;
+}
+#top .log-reg{
+	margin:8px 20px 0 10px;
+	float:right;
+}
+#top .log-reg a{
+	display:inline-block;
+	color:#666;
+	padding:0 4px;
+}
+#top .log-reg a.user{
+	color:#0078B6;
+}
+#top .userbar{
+	float:right;
+	position:absolute;
+	z-index:9999;
+	
+	
+}
+#top .log-reg a.login{
+	padding:0 0 0 15px;
+	background:url(../images/login.png) no-repeat left center;
+}
+#top .post{
+	width:700px;
+	clear:both;
+	padding:0 0 0 10px;
+}
+#top .post .type{
+	padding:0 0 5px 0;
+	float:right;
+	font-size:12px;
+}
+#top .post .type span{
+	display:inline-block;
+	color:#666;
+	margin:0 0 0 15px;
+	padding:3px;
+	cursor:pointer;
+	border-radius:3px;
+}
+#top .post .type span.select{
+	background:#666;
+	color:#fff;
+}
+#top .post textarea{
+	border:1px solid #ccc;
+	max-height:60px;
+	max-width:700px;
+	min-height:60px;
+	min-width:700px;
+	padding:5px 0 0 5px;
+	font-size:12px;
+	color:#666;
+	background:url(../images/topbg.png) #fff;
+}
+#top .post button.upload{
+	width:45px;
+	height:43px;
+	border:none;
+	cursor:pointer;
+	background:url(../images/upload.png) no-repeat;
+	float:left;
+}
+#top .post button.send{
+	width:45px;
+	height:25px;
+	border:1px solid #0078B6;
+	color:#fff;
+	cursor:pointer;
+	float:right;
+	margin:5px 0 0 0;
+	background:#0078B6;
+}
+#foot{
+	width:860px;
+	height:430px;
+	background:#fff;
+	float:left;
+	box-shadow:1px 3px 5px;
+	padding:0 0 0 10px;
+	color:#24272E;
+	overflow-y:scroll;
+}
+#foot .nav{
+	width:98%;
+	height:45px;
+	line-height:45px;
+	border:1px dashed #ccc;
+	text-align:center;
+	margin:0 0 10px 0;
+}
+#foot a{
+	color:#0078B6;
+}
+#foot a:hover{
+	text-decoration:underline;
+}
+#login {
+	width:350px;
+	height:250px;
+	border:1px solid #ccc;
+	position:absolute;
+	display:none;
+	z-index:9999;
+	background:#fff;
+}
+#login h2 {
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#666;
+	background:url(../images/login_header.png) repeat-x;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ccc;
+	cursor:move;
+}
+#login h2 img {
+	float:right;
+	position:relative;
+	top:14px;
+	right:8px;
+	cursor:pointer;
+}
+#login div.info {
+	padding:15px 0 5px 0;
+	text-align:center;
+	color:maroon;
+}
+#login div.user, #login div.pass {
+	font-size:14px;
+	color:#666;
+	padding:5px 0;
+	text-align:center;
+}
+#login input.text {
+	width:200px;
+	height:25px;
+	border:1px solid #ccc;
+	background:#fff;
+	font-size:14px;
+}
+#login .button {
+	text-align:center;
+	padding:15px 0;
+}
+#login input.submit {
+	width:107px;
+	height:30px;
+	background:url(../images/login_button.png) no-repeat left;
+	border:none;
+	cursor:pointer;
+}
+#login .other {
+	text-align:right;
+	padding:15px 10px;
+	color:#666;
+}
+#reg {
+	width:600px;
+	height:550px;
+	border:1px solid #ccc;
+	position:absolute;
+	display:none;
+	z-index:9999;
+	background:#fff;
+}
+#reg h2 {
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#666;
+	background:url(../images/login_header.png) repeat-x;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ccc;
+	margin:0 0 20px 0;
+	cursor:move;
+}
+#reg h2 img {
+	float:right;
+	position:relative;
+	top:14px;
+	right:8px;
+	cursor:pointer;
+}
+#reg dl {
+	font-size:14px;
+	color:#666;
+	margin:20px;
+	padding:0 0 0 10px;
+	position:relative;
+}
+#reg dl dd {
+	height:30px;
+	padding:5px 0;
+}
+#reg dl dd input.text, #reg dl dd select {
+	width:200px;
+	height:25px;
+	border:1px solid #ccc;
+	background:#fff;
+	font-size:14px;
+	color:#666;
+}
+#reg dl dd select {
+	width:202px;
+}
+#reg dl dd.birthday select {
+	width:70px;
+}
+#reg dl dd textarea {
+	width:360px;
+	height:100px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#reg dl dd.ps {
+	padding:0 0 0 300px;
+}
+#reg dl dd.ps strong.num {
+	padding:0 2px;
+}
+#reg dl dd.ps span.clear {
+	color:#06f;
+	cursor:pointer;
+}
+#reg dl dd input.submit {
+	width:143px;
+	height:33px;
+	background:url(../images/reg.png) no-repeat left;
+	border:none;
+	cursor:pointer;
+}
+#reg dl dd span.info, #reg dl dd span.error, #reg dl dd span.succ {
+	display:block;
+	font-size:12px;
+	color:#333;
+	width:165px;
+	height:32px;
+	line-height:32px;
+	padding:0 0 0 35px;
+	position:absolute;
+	letter-spacing:1px;
+	display:none;
+}
+#reg dl dd span.info {
+	background:url(../images/reg_info.png) no-repeat;
+}
+#reg dl dd span.error {
+	background:url(../images/reg_error.png) no-repeat;
+}
+#reg dl dd span.succ {
+	height:14px;
+	line-height:14px;
+	background:url(../images/reg_succ.png) no-repeat;
+	padding:0 0 0 20px;
+	color:green;
+}
+#reg dl dd span.loading {
+	position:absolute;
+	top:10px;
+	left:300px;
+	font-size:12px;
+	background:url../(images/loading2.gif) no-repeat;
+	text-indent:22px;
+	padding:1px 0 0 0;
+	display:none;
+}
+#reg dl dd span.info_user {
+	height:43px;
+	line-height:18px;
+	padding-top:7px;
+	background:url(../images/reg_info2.png) no-repeat;
+	top:3px;
+	left:295px;
+}
+#reg dl dd span.error_user {
+	top:3px;
+	left:295px;
+}
+#reg dl dd span.succ_user {
+	top:12px;
+	left:295px;
+}
+#reg dl dd span.info_pass {
+	width:244px;
+	height:102px;
+	padding:4px 0 0 16px;
+	background:url(../images/reg_info3.png) no-repeat;
+	top:5px;
+	left:295px;
+	letter-spacing:0;
+}
+#reg dl dd span.info_pass p {
+	height:25px;
+	line-height:25px;
+	color:#666;
+}
+#reg dl dd span.info_pass p strong.s {
+	color:#ccc;
+}
+#reg dl dd span.error_pass {
+	top:43px;
+	left:295px;
+}
+#reg dl dd span.succ_pass {
+	top:52px;
+	left:295px;
+}
+#reg dl dd span.info_notpass {
+	top:83px;
+	left:295px;
+}
+#reg dl dd span.error_notpass {
+	top:83px;
+	left:295px;
+}
+#reg dl dd span.succ_notpass {
+	top:92px;
+	left:295px;
+}
+#reg dl dd span.info_ans {
+	top:163px;
+	left:295px;
+}
+#reg dl dd span.error_ans {
+	top:163px;
+	left:295px;
+}
+#reg dl dd span.succ_ans {
+	top:172px;
+	left:295px;
+}
+#reg dl dd span.info_email {
+	top:203px;
+	left:295px;
+}
+#reg dl dd span.error_email {
+	top:203px;
+	left:295px;
+}
+#reg dl dd span.succ_email {
+	top:212px;
+	left:295px;
+}
+#reg dl dd span.error_ques {
+	top:123px;
+	left:295px;
+}
+#reg dl dd span.error_birthday {
+	top:241px;
+	left:350px;
+}
+#reg dl dd ul.all_email {
+	width:180px;
+	height:130px;
+	background:#fff;
+	padding:5px 10px;
+	position:absolute;
+	top:233px;
+	left:87px;
+	border:1px solid #ccc;
+	display:none;
+}
+#reg dl dd ul.all_email li {
+	height:25px;
+	line-height:25px;
+	border-bottom:1px solid #e5edf2;
+	padding:0 5px;
+	cursor:pointer;
+}
+#postqus {
+	width:580px;
+	height:320px;
+	border:1px solid #ccc;
+	position:absolute;
+	z-index:9999;
+	background:#fff;
+	display:none;
+}
+#postqus h2 {
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	letter-spacing:1px;
+	color:#666;
+	background:url(../images/login_header.png) repeat-x;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ccc;
+	cursor:move;
+}
+#postqus h2 img {
+	float:right;
+	position:relative;
+	top:14px;
+	right:8px;
+	cursor:pointer;
+
+}
+#postqus div.info {
+	padding:15px 0 5px 0;
+	text-align:center;
+	color:maroon;
+}
+#postqus dl {
+	padding:0 0 0 10px;
+}
+#postqus dl dd {
+	font-size:14px;
+	padding:10px;
+}
+#postqus dl dd input.title {
+	width:200px;
+	height:25px;
+	border:1px solid #ccc;
+	background:#fff;
+	font-size:14px;
+	color:#666;
+	padding:0 0 0 4px;
+	font-size:12px;
+}
+#postqus dl dd textarea.content {
+	width:360px;
+	height:70px;
+	max-width:360px;
+	max-height:70px;
+	background:#fff;
+	border:1px solid #ccc;
+	color:#666;
+	padding:4px;
+	font-size:12px;
+}
+#postqus dl dd input.submit {
+	width:107px;
+	height:33px;
+	border:none;
+	background:url(../images/postqus_button.png) no-repeat left;
+	cursor:pointer;
+}
+#screen {
+	position:absolute;
+	top:0;
+	left:0;
+	background:#000;
+	z-index:9998;
+	filter:alpha(opacity=0);
+	opacity:0;
+	height:0;
+	width:0;
+}
+
+#loading {
+	position:absolute;
+	width:200px;
+	height:40px;
+	background:url(../images/login_header.png);
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	z-index:10000;
+	display:none;
+}
+#loading p {
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#666;
+	font-weight:bold;
+	background:url(../images/loading3.gif) no-repeat 20px center;
+	text-indent:50px;
+}
+#success {
+	position:absolute;
+	width:240px;
+	height:40px;
+	background:url(../images/login_header.png);
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	z-index:10000;
+	display:none;
+}
+#success p {
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#666;
+	font-weight:bold;
+	background:url(../images/success.gif) no-repeat 20px center;
+	text-indent:50px;
+}
+#error {
+	position:absolute;
+	width:240px;
+	height:40px;
+	background:url(../images/login_header.png);
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	z-index:10000;
+	display:none;
+}
+#error p {
+	height:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#666;
+	font-weight:bold;
+	background:url(../images/error.png) no-repeat 20px center;
+	text-indent:50px;
+}
+#page {
+	text-align:center;
+	padding:10px;
+}
+#page a {
+	color:#335B64;
+	border:1px solid #666;
+	padding:2px 5px;
+	margin:0 2px;
+	text-decoration:none;
+}
+#page a:hover,#page span.me {
+	color:#fff;
+	border:1px solid #335B64;
+	background:#335B64;
+	text-decoration:none;
+}
+#page span.disabled {
+	border:1px solid #ccc;
+	padding:2px 5px;
+	margin:0 2px;
+	color:#ccc;
+}
+#page span.me {
+	padding:2px 5px;
+	margin:0 2px;
+}
+#page select.select {
+	width:120px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+#page select.select optgroup {
+	font-style:normal;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+#foot dl{
+	width:120px;
+	float:left;
+	margin:0 10px 20px 0;
+	border:2px solid #fff;
+	padding:2px;
+	cursor:pointer;
+}
+#foot dl:hover{
+	border:2px solid #00B5F9;
+}
+#foot dl dd{
+	padding:2px 0;
+}
+#left .group a{
+	color:#ccc;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PKM门户--{$title}</title>
+<import type="css" file="css.basic,css.answer" />
+<import type="js" file="js.jquery_min,js.basic,js.ask_answer" />
+</head>
+<body>	
+<div id="main">
+	<!-- 引入公共模板 -->
+	<include file="Public/include/left.html,Public/include/top.html"/>
+	<a name="gotop" id="gotop"></a>
+	<div id="foot">
+		<div class="nav">
+				这里添加导航
+		</div>
+		<div class="bar">
+			<div class="back"><a href="{$Think.server.HTTP_REFERER}">返回上一级</a></div>
+		</div>
+	
+		<div class="question">
+			<div class="title">{$oneQus.title|stripslashes} <a href="###">{$user.user|stripslashes}</a></div>
+			<div class="desc">描述：{$oneQus.content|stripslashes}</div>
+			<php>
+				$tag=preg_split('/,|，/',trim($oneQus['tag']));
+			</php>
+			
+			
+			<div class="tag"><span>标签：</span>
+				<volist name="tag" id="tagval">
+					<a href="###">{$tagval|trim|stripslashes}</a>	
+				</volist>
+			
+			
+				<span class="comment"><a href="javascript:void(0);">我要回答</a></span>
+			</div>
+			<div class="postans">
+				<form name="postans">
+					<input type="hidden" name='qusid' value="{$oneQus.id}"/>
+					<textarea name="text">请在这里添加答案...</textarea>
+					<input type="button" value="提交" class="send"/>
+				</form>
+			</div>
+		</div>
+		<div class="answer">
+			<volist name="oneQus.ans" id="ans" empty="暂时没有回答...">
+			<div class="detail">
+				<input type="hidden" name="uid" value="{$ans.uid}"/>
+				<h2><span class="nickname"><a href="javascript:void(0);">{$ans.user}</a></span><span class="date">{$ans.date}</span></h2>
+				<div class="text">{$ans.content|stripslashes}</div>
+				<div class="comment"><a href="javascript:void(0);">赞({$ans.zan})</a><a href="javascript:void(0);">踩({$ans.cai})</a></div>
+			</div>
+			</volist>
+			<div class="newans"></div>
+			<input type="hidden" name="jishu" value="0"/>
+			<div class="ans_more"><a href="javascript:void 0">更多回答</a></div>
+		</div>
+			
+	</div>
+</div>	
+</body>
+</html>

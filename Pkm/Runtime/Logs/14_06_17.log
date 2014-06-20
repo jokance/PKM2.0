@@ -1,0 +1,91 @@
+[ 2014-06-17T09:06:08+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-17T09:06:10+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.012001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-17T09:06:41+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.012000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.002001s ]
+
+[ 2014-06-17T09:06:58+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-17T09:58:48+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-17T09:58:49+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-17T09:58:50+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.003000s ]
+
+[ 2014-06-17T17:34:08+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.020001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-17T17:34:11+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.016001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 10,5   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015001s ]
+
+[ 2014-06-17T17:34:13+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.016001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 15,5   [ RunTime:0.003000s ]
+

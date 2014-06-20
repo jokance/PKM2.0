@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+#foot a{
+	color:#0078B6;
+}
+#foot a:hover{
+	text-decoration:underline;
+}
+#left .diary a{
+	color:#ccc;
+}
+#foot dl{
+	width:250px;
+	float:left;
+	margin:0 30px 0 0;
+}
+#foot dl dt{
+	text-align:center;
+	font-size:14px;
+	color:#0078B6;
+	padding:0 0 5px 0;
+}
+#foot dl dd.date{
+	float:right;
+	font-family:Tahoma;
+	color:#999;
+	padding:0 0 5px 0;
+}
+#foot dl dd.text{
+	clear:both;
+	line-height:18px;
+	letter-spacing:2px;
+	text-indent:25px;
+	background:#ccc;
+	font-size:13px;
+	padding:5px;
+	color:#333;
+}
+#foot dl dd.tag{
+	margin:8px 0 0 0;
+}
+#foot dl dd.tag a{
+	padding:0 3px;
+}
+
+
+
+
+
+
+
+

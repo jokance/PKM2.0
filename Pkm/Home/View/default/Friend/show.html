@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PKM门户--{$title}</title>
+<import type="css" file="css.basic,css.friend" />
+<import type="js" file="js.jquery_min,js.basic,js.friend_show" />
+</head>
+<body>
+
+<div id="main">
+	<include file="Public/include/left.html,Public/include/top.html"/>
+	
+	<div id="foot">
+	<switch name="flag">
+		<case value="0">
+			<p style="margin:10px;" class="plogin">对不起，您还没有登陆...</p>
+		</case>
+		<case value="1">
+		<div class="nav">
+			这里添加导航
+		</div>
+		<div class="fleft">
+			<h2>我的好友</h2>		
+			<volist name="friendData" id="myfriend" empty="您还没有好友，赶快添加吧...">
+			<div class="myf">		
+				<img src="__PUBLIC__/photo/user_normal.jpg" alt="好友" width="48px" height="48px"/>
+				<dl>
+					<dt><a href="###">{$myfriend.user|stripslashes}</a><span>日志（0）</span><span>提问（0）</span></dt>
+					<dd>简介：{$myfriend.ps|stripslashes}</dd>
+					<dd>最近状态：{$myfriend.state.0.text}</dd>
+					<dd class="ftag">标签：<a href="###">电脑</a><a href="###">软件</a></dd>
+				</dl>
+			</div>
+			</volist>
+			
+		</div>
+		<div class="fright">
+			<h2>好友推荐</h2>
+			<volist name="RecUser" id="userValue" empty="随便逛逛，寻找志同道合的朋友吧...">
+			<div class="recf">		
+				<img src="__PUBLIC__/photo/user_normal.jpg" alt="好友" width="48px" height="48px"/>
+				<dl>
+					<dt><a href="###" class="recuser">{$userValue.user|stripslashes}</a><span title="加为好友" class="addf">好友</span></dt>
+					<dd title="{$userValue.ps|stripslashes}">简介：{$userValue.ps|stripslashes|mb_substr=0,14,'UTF-8'}</dd>
+					<dd class="ftag">标签：<a href="###">电脑</a><a href="###">软件</a></dd>
+				</dl>
+			</div>
+			</volist>
+		</div>
+		</case>
+		</switch>
+	</div>
+</div>
+
+
+</body>
+</html>

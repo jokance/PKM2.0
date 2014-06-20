@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<title>PKM门户--{$title}</title>
+<import type="css" file="css.bootstrap_min,css.basic,css.diary_write" />
+<import type="js" file="js.jquery_min,js.bootstrap_min,js.basic" />
+</head>
+<body>	
+<div id="main">
+	<!-- 引入公共模板 -->
+	<include file="Public/include/left.html,Public/include/top.html"/>
+
+	
+	<div id="foot">
+		<div class="nav">
+				这里添加导航
+		</div>
+		<div class="back"><a href="{$Think.server.HTTP_REFERER}">返回上一级</a></div>
+		
+		<div class="diary">
+		<empty name="Think.cookie.user">
+			<p class="text-warning">您还没有登录呢...</p>
+		</empty>
+			<h3>我的日志<small> —— 写日志</small></h3>
+			<form role="form" name="diary">
+				  <div class="form-group">
+					<label for="title">Title</label>
+					<input type="text" class="form-control" name="title" id="title" placeholder="输入标题">
+				  </div>
+				  <div class="form-group">
+					<label for="tag">Tag</label>
+					<input type="text" class="form-control" name="tag" id="tag" placeholder="标签之间使用逗号隔开">
+				  </div>
+				  <div class="form-group">
+				   	<label for="abstract">Abstract</label>
+				  	<textarea class="form-control" rows="3" name="abstract" id="abstract"></textarea>
+				  </div>
+				  <div class="form-group">
+				   	<label for="content">Content</label>
+				  	<textarea class="form-control" rows="9" name="content" id="content"></textarea>
+				  </div>
+			  	<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		
+		<div class="bottom">
+			<p class="text-center">This page powered by <a href="http://www.bootcss.com" target="_blank">Bootstrap</a></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

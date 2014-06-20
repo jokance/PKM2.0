@@ -1,0 +1,10 @@
+[ 2014-06-19T00:43:42+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.076005s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+

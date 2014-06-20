@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+#left .friend a{
+	color:#ccc;
+}
+#foot .nav{
+
+}
+#foot h2{
+	font-size:16px;
+	color:#F37F00;
+	font-style:italic;
+	font-weight:bold;
+	text-indent:2px;
+	padding:0 0 2px 0;
+	margin:0 0 10px 0;
+	border-bottom:1px solid #ccc;
+	text-shadow:3px 0px 1px #ccc;
+}
+
+#foot .fleft{
+	width:440px;
+	float:left;
+	
+}
+#foot .fleft .myf{
+	width:440px;
+	height:75px;
+	margin:0 0 20px 0;
+	font-size:12px;
+}
+#foot .fleft .myf img{
+	margin:13px 0;
+	float:left;
+}
+#foot .fleft .myf dl{
+	margin:0 0 0 10px;
+	padding:2px 0 2px 4px;
+	border-left:4px solid #BCE8F1;
+	background:#F4F8FA;
+	color:#666;
+	float:left;
+	height:75px;
+	width:374px;
+	line-height:18px;
+}
+#foot .fleft .myf dl dt a{
+	padding:0 20px 0 0;
+}
+#foot .fleft .myf dl dt span{
+	display:inline-block;
+	float:right;
+	color:#aaa;
+}
+#foot .fleft .myf dl dt span:hover{
+	color:#333;
+}
+#foot .fleft .myf dl dd.ftag a{
+	padding:0 5px 0 0;
+	font-size:11px;
+}
+#foot .fright{
+	width:250px;
+	float:right;
+	margin:0 50px 0 0;
+}
+#foot .fright .recf{
+	width:250px;
+	height:54px;
+	margin:0 0 20px 0;
+	font-size:12px;
+}
+#foot .fright .recf img{
+	margin:4px 0 0 0;
+	float:left;
+}
+#foot .fright .recf dl{
+	padding:2px;
+	border-left:4px solid #EED3D7;
+	background:#FDF7F7;
+	color:#666;
+	float:left;
+	height:54px;
+	width:193px;
+	line-height:18px;
+
+}
+#foot .fright .recf dl dt span{
+	display:inline-block;
+	float:right;
+	padding:0 10px;
+	background:url(../images/mini_add.png) no-repeat left center;
+	cursor:pointer;
+}
+#foot .fright .recf dl dt span:hover{
+	color:#0078B6;
+}
+#foot .fright .recf dl dd.ftag a{
+	padding:0 5px 0 0;
+	font-size:11px;
+}
+
+
+
+
+
+
+
+
+
+
+

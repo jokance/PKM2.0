@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+#left .ask a{
+	color:#ccc;
+}
+
+#foot .question{
+	width:700px;
+	padding:10px 0 10px 0;
+	border-bottom:1px dashed #ccc;
+}
+#foot .question div{
+	padding:4px 0;
+}
+#foot .question .title{
+	color:#999;
+}
+#foot .question .title a{
+	padding:0 0 0 5px;
+	font-size:14px;
+}
+
+#foot .question .desc{
+	line-height:16px;
+	color:#999;
+}
+#foot .question .tag{
+	color:#0078B6;
+}
+#foot .question .tag span{
+	color:#999;
+}
+#foot .question .tag a{
+	color:#0078B6;
+	padding:0 4px 0 0;
+}
+#foot .question span.more{
+	display:inline-block;
+	float:right;
+	padding:0 14px 0 0;
+	background:url(../images/combo_arrow.png) no-repeat right center;
+	cursor:pointer;
+}
+#foot .question span.comment{
+	display:inline-block;
+	float:right;
+	padding:0 14px 0 0;
+	cursor:pointer;
+}
+.postans{
+	width:0;
+	height:0;
+	padding:10px 0 10px 0;
+	overflow:hidden;
+}
+.postans textarea{
+	width:685px;
+	height:80px;
+	color:#666;
+	padding:3px;
+	font-size:13px;
+}
+.postans input[type=button]{
+	width:45px;
+	height:25px;
+	border:1px solid #0078B6;
+	color:#fff;
+	cursor:pointer;
+	float:right;
+	margin:5px 18px 0 0;
+	background:#0078B6;
+}
+#foot .ask_more{
+	width:700px;
+	height:35px;
+	margin:40px 0;
+	line-height:35px;
+	text-align:center;
+	border:1px solid #E3E3E3;
+	cursor:pointer;
+}
+#foot .ask_more:hover{
+	background: #E3E3E3;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PKM门户--{$title}</title>
+<import type="css" file="css.basic,css.ask" />
+<import type="js" file="js.jquery_min,js.basic,js.ask_show" />
+</head>
+<body>	
+<div id="main">
+	<!-- 引入公共模板 -->
+	<include file="Public/include/left.html,Public/include/top.html"/>
+	
+	<div id="foot">
+		<div class="nav">
+					这里添加导航
+		</div>
+	<volist name="allQus" id="qus">
+		<div class="question">
+			<div class="title">■<a href="{:U('Ask/answer',"id=$qus[id]")}">{$qus.title|stripslashes}</a></div>
+			<div class="desc">{$qus.content|stripslashes|mb_substr=0,100,'UTF-8'}</div>
+			<php>
+				$tag=preg_split('/,|，/',trim($qus['tag']));
+			</php>
+			
+			
+			<div class="tag"><span>标签：</span>
+				<volist name="tag" id="tagval">
+					<a href="###">{$tagval|trim|stripslashes}</a>	
+				</volist>
+			
+			<span class="comment"><a class="comnum" href="{:U('Ask/answer',"id=$qus[id]")}">评论(0)</a><a href="###" class="myans" onclick="return comment(this);">我要回答</a></span></div>	
+			<div class="postans">
+				<form name="postans">
+					<input type="hidden" name='qusid' value="{$qus.id}"/>
+					<textarea name="text"></textarea>
+					<span style="display:inline-block;padding:5px 0 0 0;color:#999;">请在上面添加答案</span>
+					<input type="button" value="提交" class="send" onclick="return sendans(this);"/>
+				</form>
+			</div>
+		</div>
+
+	</volist>
+	<div id="page">{$page->showpage()}</div>
+
+	</div>
+</div>	
+</body>
+</html>

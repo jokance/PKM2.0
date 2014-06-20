@@ -1,0 +1,813 @@
+[ 2014-06-18T09:52:21+08:00 ] 127.0.0.1 /PKM2.0/Public/post0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-06-18T09:53:28+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-06-18T10:00:45+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.013001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-06-18T10:52:48+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.013000s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T10:52:51+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T10:52:51+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T10:53:33+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T10:54:51+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011000s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T10:54:57+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T10:55:40+08:00 ] 127.0.0.1 /PKM2.0/index.php/Friend/addf
+ERR: 非法数据对象！:[touser=>stripslashes]
+
+[ 2014-06-18T10:57:27+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012000s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:00:09+08:00 ] 127.0.0.1 /PKM2.0/Public/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.020001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:00:33+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.012001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (12,'asd','2014-06-18 11:00:32',15,'admin') [ RunTime:0.050003s ]
+
+[ 2014-06-18T11:00:57+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.011000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:02:37+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011000s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:03:06+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:04:30+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:05:59+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:06:04+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:06:06+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:06:08+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:06:10+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:06:12+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T11:06:24+08:00 ] 127.0.0.1 /PKM2.0/Public/post0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_state [ RunTime:0.012001s ]
+SQL: INSERT INTO `pkm_state` (`text`,`date`,`uid`) VALUES ('asdasdads','2014-06-18 11:06:24',15) [ RunTime:0.002000s ]
+
+[ 2014-06-18T11:06:44+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.017001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:06:47+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011001s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T11:06:48+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T11:06:48+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012000s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T11:06:49+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T11:06:49+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012000s ]
+ERR: 非法数据对象！:[touser=>jokance]
+
+[ 2014-06-18T11:07:01+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.013001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:07:18+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.012001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (12,'asdad','2014-06-18 11:07:18',15,'admin') [ RunTime:0.001000s ]
+
+[ 2014-06-18T11:08:35+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014000s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:09:01+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013001s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-18T11:09:43+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015000s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:10:07+08:00 ] 127.0.0.1 /PKM2.0/Public/answer
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.013000s ]
+SQL: SELECT * FROM `pkm_ans` WHERE ( `qusid` = 8 ) ORDER BY date asc LIMIT 5,5   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:12:15+08:00 ] 127.0.0.1 /PKM2.0/Friend/addfriend
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+ERR: 非法操作:addfriend
+
+[ 2014-06-18T11:12:50+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-18T11:12:53+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:13:36+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:13:40+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.012001s ]
+ERR: 非法数据对象！:[touser=>root]
+
+[ 2014-06-18T11:14:08+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:14:09+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:14:20+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:14:26+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:15:08+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-06-18T11:15:15+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:15:22+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007001s ]
+
+[ 2014-06-18T11:15:25+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:15:38+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:15:52+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:15:55+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:16:28+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:17:05+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:17:16+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:17:34+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:17:49+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:17:52+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-06-18T11:18:11+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.011001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:18:42+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:18:44+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:19:06+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-18T11:19:10+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:19:13+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2014-06-18T11:19:16+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:19:56+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:20:15+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:20:17+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:20:37+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T11:20:38+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-18T11:20:55+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T11:21:53+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.011001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('root','admin','2014-06-18 11:21:53') [ RunTime:0.053003s ]
+
+[ 2014-06-18T11:21:56+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.011001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('jokance','admin','2014-06-18 11:21:56') [ RunTime:0.060003s ]
+
+[ 2014-06-18T11:22:43+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.012000s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('root','admin','2014-06-18 11:22:43') [ RunTime:0.058003s ]
+
+[ 2014-06-18T13:52:43+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.041003s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T14:01:41+08:00 ] 127.0.0.1 /PKM2.0/index.php/Friend/index.html
+ERR: Think\Model:disdinct方法不存在！
+
+[ 2014-06-18T14:22:11+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'root' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2014-06-18T14:22:49+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'af52' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T14:23:33+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2014-06-18T14:42:00+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = '52af' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2014-06-18T14:42:21+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015000s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'af52' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2014-06-18T14:44:11+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('yudalei','af52','2014-06-18 14:44:11') [ RunTime:0.044002s ]
+
+[ 2014-06-18T14:45:52+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.016001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('qqly','af52','2014-06-18 14:45:52') [ RunTime:0.066004s ]
+
+[ 2014-06-18T14:46:15+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'buou' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-06-18T14:47:38+08:00 ] 127.0.0.1 /PKM2.0/Public/post4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_ans [ RunTime:0.016001s ]
+SQL: INSERT INTO `pkm_ans` (`qusid`,`content`,`date`,`uid`,`user`) VALUES (8,'asda','2014-06-18 14:47:38',20,'buou') [ RunTime:0.001000s ]
+
+[ 2014-06-18T14:48:57+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('admin','buou','2014-06-18 14:48:57') [ RunTime:0.049003s ]
+
+[ 2014-06-18T14:49:04+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('jokance','buou','2014-06-18 14:49:04') [ RunTime:0.058003s ]
+
+[ 2014-06-18T15:05:06+08:00 ] 127.0.0.1 /PKM2.0/index.php/Friend/index.html
+ERR: Think\Model:relation方法不存在！
+
+[ 2014-06-18T15:06:39+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T15:07:10+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'buou' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T15:15:46+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014000s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T15:16:10+08:00 ] 127.0.0.1 /PKM2.0/Public/post0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_state [ RunTime:0.013001s ]
+SQL: INSERT INTO `pkm_state` (`text`,`date`,`uid`) VALUES ('在好友里可以显示我的最新状态！！！','2014-06-18 15:16:10',15) [ RunTime:0.001000s ]
+
+[ 2014-06-18T15:16:26+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'root' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T15:20:17+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.015001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('jokance','root','2014-06-18 15:20:17') [ RunTime:0.052003s ]
+
+[ 2014-06-18T15:20:21+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.014001s ]
+SQL: INSERT INTO `pkm_friend` (`touser`,`fromuser`,`date`) VALUES ('buou','root','2014-06-18 15:20:21') [ RunTime:0.049003s ]
+
+[ 2014-06-18T15:29:57+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_friend` WHERE ( `fromuser` = 'admin' ) OR ( `touser` = 'root' )  [ RunTime:0.001001s ]
+
+[ 2014-06-18T15:30:31+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.015001s ]
+SQL: SELECT * FROM `pkm_friend` WHERE ( `fromuser` = 'admin' ) OR ( `touser` = 'root' )  [ RunTime:0.002000s ]
+
+[ 2014-06-18T15:31:37+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.014001s ]
+SQL: SELECT * FROM `pkm_friend` WHERE ( `fromuser` = 'jokance' ) OR ( `touser` = 'root' )  [ RunTime:0.001000s ]
+
+[ 2014-06-18T15:31:40+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.015001s ]
+SQL: SELECT * FROM `pkm_friend` WHERE ( `fromuser` = 'admin' ) OR ( `touser` = 'root' )  [ RunTime:0.001000s ]
+
+[ 2014-06-18T15:31:41+08:00 ] 127.0.0.1 /PKM2.0/Friend/addf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_friend [ RunTime:0.015000s ]
+SQL: SELECT * FROM `pkm_friend` WHERE ( `fromuser` = 'buou' ) OR ( `touser` = 'root' )  [ RunTime:0.001000s ]
+
+[ 2014-06-18T16:06:41+08:00 ] 127.0.0.1 /PKM2.0/index.php/Diary/write
+ERR: XML标签语法错误
+
+[ 2014-06-18T16:51:27+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.015000s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2014-06-18T17:29:44+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.014000s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-06-18T17:31:50+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.017001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2014-06-18T17:59:08+08:00 ] 127.0.0.1 /PKM2.0/Check/is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012001s ]
+SQL: DESCRIBE pkm_user [ RunTime:0.016001s ]
+SQL: SELECT `id`,`user`,`pass` FROM `pkm_user` WHERE ( `user` = 'admin' ) AND ( `pass` = '05fe7461c607c33229772d402505601016a7d0ea' ) LIMIT 1   [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
